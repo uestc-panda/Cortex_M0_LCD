@@ -11,6 +11,9 @@ int main()
 	NVIC_CTRL_ADDR	= 1;
 	LCD->en = 1;
 
+	int sx, sy, ex, ey;
+	sx = sy = ex = ey = 0;
+
     while(1){
 		  while(!key_flag);
 			uint32_t din;
@@ -27,13 +30,44 @@ int main()
 				LCD->ini_en = 1;
 			}
 			if(ans == 0) {
-                
-				LCD->set_sc = 0;
-				LCD->set_ec = 0;
-                LCD->set_sp = 0;
-                LCD->set_ep = 0;
-				LCD->color_en = 1;
+                sx = sy = 0;
+				ex = ey = 80;
 			}
+			if (ans == 1) { // left
+				if (sx < 80) ;
+				else {
+					sx -= 80;
+					ex -= 80;
+				}
+			}
+			if (ans == 2) { //right
+				if (ex > 160) ;
+				else {
+					sx += 80;
+					ex += 80;
+				}
+			}
+			if (ans == 3) { // up
+				if (sy < 80) ;
+				else {
+					sy -= 80;
+					ey -= 80;
+				}
+			}
+			if (ans == 4) { // down				
+				if (ey > 240) ;
+				else {
+					sy += 80;
+					ey += 80;
+				}
+			}
+			
+			LCD->sc = sx;
+			LCD->ec = ex;
+			LCD->sp = sy;
+			LCD->ep = ey;
+			LCD->color_en = 1;
+
 		    key_flag = 0;
 		    Keyboard_keydata_clear = 1;
 	}
