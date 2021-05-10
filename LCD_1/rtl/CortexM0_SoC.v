@@ -392,7 +392,7 @@ wire [31:0] set_ec;
 wire [31:0] set_sp;
 wire [31:0] set_ep;
 
-AHBlite_Buzzermusic Buzzermusic_Interface(
+AHBlite_LCD LCD_Interface(
         /* Connect to Interconnect Port 3 */
         .HCLK           (clk),
         .HRESETn        (cpuresetn),
