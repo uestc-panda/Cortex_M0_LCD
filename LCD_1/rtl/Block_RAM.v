@@ -11,7 +11,7 @@ module Block_RAM #(
 (* ram_style="block" *)reg [31:0] mem [(2**ADDR_WIDTH-1):0];
 
 initial begin
-    $readmemh("C:/Users/73474/Desktop/M0/Music/keil/code.hex",mem);
+    $readmemh("C:/Users/73474/Desktop/Cortex_M0_LCD/LCD_1/keil/code.hex",mem);
 end
 
 always@(posedge clka) begin
