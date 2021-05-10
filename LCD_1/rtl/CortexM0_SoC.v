@@ -7,7 +7,6 @@ module CortexM0_SoC (
 
         input       wire    [3:0]   col,
         output      wire    [3:0]   row,
-        output      wire            beep,
 
         output      wire            LCD_CS,
         output      wire            LCD_RS,
@@ -16,9 +15,7 @@ module CortexM0_SoC (
         output      wire            LCD_RST,
         output      wire    [15:0]  LCD_DATA
         output      wire            LCD_BL_C
-        
-        input       wire    [3:0]   col,
-        output      wire    [3:0]   row,       
+     
 );
 
 wire music_finish;
