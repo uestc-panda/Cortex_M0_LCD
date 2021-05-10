@@ -16,8 +16,9 @@ typedef struct
     volatile uint32_t set_sc;  //0x40000020
     volatile uint32_t set_ec;  //0x40000024
     volatile uint32_t set_sp;  //0x40000028
-    volatile uint32_t set_sp;  //0x4000002C
-}LCDtype;
+    volatile uint32_t set_ep;  //0x4000002C
+}LCDType;
+
 #define LCD_BASE 0x40000010
 #define LCD ((LCDType *)LCD_BASE)
 
