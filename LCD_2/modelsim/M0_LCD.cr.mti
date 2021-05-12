@@ -1,0 +1,176 @@
+C:/Users/73474/Desktop/M0/LCD/modelsim/M0_LCD_tst.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/modelsim/M0_LCD_tst.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module Cortex_M0_tst
+
+Top level modules:
+	Cortex_M0_tst
+
+} {} {}} C:/Users/73474/Desktop/M0/LCD/rtl/Keyboard.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/rtl/Keyboard.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module Keyboard
+
+Top level modules:
+	Keyboard
+
+} {} {}} C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_Keyboard.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_Keyboard.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module AHBlite_Keyboard
+
+Top level modules:
+	AHBlite_Keyboard
+
+} {} {}} C:/Users/73474/Desktop/M0/LCD/rtl/DataTrans.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/rtl/DataTrans.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module DataTrans
+
+Top level modules:
+	DataTrans
+
+} {} {}} C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_Block_RAM.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_Block_RAM.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module AHBlite_Block_RAM
+
+Top level modules:
+	AHBlite_Block_RAM
+
+} {} {}} C:/Users/73474/Desktop/M0/LCD/rtl/Block_RAM.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/rtl/Block_RAM.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module Block_RAM
+
+Top level modules:
+	Block_RAM
+
+} {} {}} C:/Users/73474/Desktop/M0/LCD/rtl/keyboard_scan.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/rtl/keyboard_scan.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module keyboard_scan
+
+Top level modules:
+	keyboard_scan
+
+} {} {}} C:/Users/73474/Desktop/M0/LCD/rtl/CortexM0_SoC.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/rtl/CortexM0_SoC.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module CortexM0_SoC
+
+Top level modules:
+	CortexM0_SoC
+
+} {} {}} C:/Users/73474/Desktop/M0/LCD/rtl/clk_division.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/rtl/clk_division.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module clk_division
+
+Top level modules:
+	clk_division
+
+} {} {}} C:/Users/73474/Desktop/M0/LCD/rtl/WriteCtrl.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/rtl/WriteCtrl.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module WriteCtrl
+
+Top level modules:
+	WriteCtrl
+
+} {} {}} C:/Users/73474/Desktop/M0/LCD/rtl/LCDCtrl.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/rtl/LCDCtrl.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module LCDCtrl
+
+Top level modules:
+	LCDCtrl
+
+} {} {}} C:/Users/73474/Desktop/M0/LCD/rtl/BlockROM16.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/rtl/BlockROM16.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module BlockROM16
+
+Top level modules:
+	BlockROM16
+
+} {} {}} C:/Users/73474/Desktop/M0/LCD/rtl/CounterKeyboard.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/rtl/CounterKeyboard.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module CounterKeyboard
+
+Top level modules:
+	CounterKeyboard
+
+} {} {}} C:/Users/73474/Desktop/M0/LCD/rtl/BlockROM1.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/rtl/BlockROM1.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module BlockROM1
+
+Top level modules:
+	BlockROM1
+
+} {} {}} C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_LCD.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_LCD.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module AHBlite_LCD
+
+Top level modules:
+	AHBlite_LCD
+
+} {} {}} C:/Users/73474/Desktop/M0/LCD/rtl/LCD.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/rtl/LCD.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module LCD
+
+Top level modules:
+	LCD
+
+} {} {}} C:/Users/73474/Desktop/M0/LCD/rtl/AddrIni.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/rtl/AddrIni.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module AddrIni
+
+Top level modules:
+	AddrIni
+
+} {} {}} C:/Users/73474/Desktop/M0/LCD/rtl/AddrCounter.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/rtl/AddrCounter.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module AddrCounter
+
+Top level modules:
+	AddrCounter
+
+} {} {}} C:/Users/73474/Desktop/M0/LCD/rtl/DecoderCnt.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/rtl/DecoderCnt.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module DecoderCnt
+
+Top level modules:
+	DecoderCnt
+
+} {} {}} C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_Interconnect.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_Interconnect.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module AHBlite_Interconnect
+
+Top level modules:
+	AHBlite_Interconnect
+
+} {} {}} C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_SlaveMUX.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_SlaveMUX.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module AHBlite_SlaveMUX
+
+Top level modules:
+	AHBlite_SlaveMUX
+
+} {} {}} C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_Decoder.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_Decoder.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module AHBlite_Decoder
+
+Top level modules:
+	AHBlite_Decoder
+
+} {} {}} C:/Users/73474/Desktop/M0/LCD/rtl/cortexm0ds_logic.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/rtl/cortexm0ds_logic.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module cortexm0ds_logic
+
+Top level modules:
+	cortexm0ds_logic
+
+} {} {}} C:/Users/73474/Desktop/M0/LCD/rtl/keyboard_filter.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/rtl/keyboard_filter.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module keyboard_filter
+
+Top level modules:
+	keyboard_filter
+
+} {} {}} C:/Users/73474/Desktop/M0/LCD/rtl/keyboard_reg.v {1 {vlog -work work -vopt -stats=none C:/Users/73474/Desktop/M0/LCD/rtl/keyboard_reg.v
+Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+-- Compiling module keyboard_reg
+
+Top level modules:
+	keyboard_reg
+
+} {} {}}
