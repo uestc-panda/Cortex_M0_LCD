@@ -22,7 +22,7 @@ assign LCD_RST = lcd_rstn;
 assign LCD_RD = 1'b1;
 assign LCD_BLK = 1'b1;
 
-wire data_start;
+wire data_trans;
 wire addr_or_data;
 wire wr_n;
 

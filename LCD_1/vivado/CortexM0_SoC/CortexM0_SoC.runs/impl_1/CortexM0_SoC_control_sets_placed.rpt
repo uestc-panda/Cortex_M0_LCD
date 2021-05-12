@@ -1,0 +1,163 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Tue May 11 17:10:52 2021
+| Host         : YN-computer running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file CortexM0_SoC_control_sets_placed.rpt
+| Design       : CortexM0_SoC
+| Device       : xc7a75t
+-----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    96 |
+| Unused register locations in slices containing registers |   224 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      6 |            1 |
+|      8 |           11 |
+|     10 |           18 |
+|    16+ |           66 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             374 |          100 |
+| No           | No                    | Yes                    |             584 |          192 |
+| No           | Yes                   | No                     |              66 |           15 |
+| Yes          | No                    | No                     |            1434 |          311 |
+| Yes          | No                    | Yes                    |             934 |          131 |
+| Yes          | Yes                   | No                     |             440 |           71 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------+---------------------------------------------+----------------------------------------+------------------+----------------+
+|           Clock Signal           |                Enable Signal                |            Set/Reset Signal            | Slice Load Count | Bel Load Count |
++----------------------------------+---------------------------------------------+----------------------------------------+------------------+----------------+
+|  SWCLK_IBUF_BUFG                 |                                             | u_logic/Wvgax6_reg_0                   |                1 |              6 |
+|  clk_IBUF_BUFG                   | u_logic/Vpgbx6_i_1_n_0                      | Keyboard/keyboard_filter/SR[0]         |                1 |              8 |
+| ~Keyboard/keyboard_scan/scan_clk | Keyboard/keyboard_scan/key[7]_i_2_n_0       | Keyboard/keyboard_scan/key[7]_i_1_n_0  |                1 |              8 |
+| ~Keyboard/keyboard_scan/scan_clk | Keyboard/keyboard_scan/key[11]_i_2_n_0      | Keyboard/keyboard_scan/key[11]_i_1_n_0 |                1 |              8 |
+|  SWCLK_IBUF_BUFG                 | u_logic/Kwlpw6_i_1_n_0                      | u_logic/Nyhpw6_i_1_n_0                 |                1 |              8 |
+|  SWCLK_IBUF_BUFG                 | u_logic/Y14iu6                              |                                        |                2 |              8 |
+|  clk_IBUF_BUFG                   | u_logic/Iixpw6_i_1_n_0                      |                                        |                2 |              8 |
+|  Keyboard/keyboard_scan/scan_clk |                                             |                                        |                1 |              8 |
+|  clk_IBUF_BUFG                   | u_logic/Rskax6_i_1_n_0                      |                                        |                2 |              8 |
+|  clk_IBUF_BUFG                   | u_logic/Dzvpw6_i_1_n_0                      |                                        |                2 |              8 |
+| ~Keyboard/keyboard_scan/scan_clk | Keyboard/keyboard_scan/key[3]_i_2_n_0       | Keyboard/keyboard_scan/key[3]_i_1_n_0  |                1 |              8 |
+| ~Keyboard/keyboard_scan/scan_clk | Keyboard/keyboard_scan/key[15]_i_2_n_0      | Keyboard/keyboard_scan/key[15]_i_1_n_0 |                1 |              8 |
+|  clk_IBUF_BUFG                   | u_logic/Jsmiu6                              | u_logic/Lpwax6_i_1_n_0                 |                2 |             10 |
+|  clk_IBUF_BUFG                   | u_logic/Cmlax6_i_1_n_0                      | u_logic/Whmax6_i_1_n_0                 |                2 |             10 |
+|  clk_IBUF_BUFG                   | u_logic/Csmiu6                              | u_logic/Eotax6_i_1_n_0                 |                2 |             10 |
+|  clk_IBUF_BUFG                   | u_logic/S5nax6_i_1_n_0                      | u_logic/Nznax6_i_1_n_0                 |                2 |             10 |
+|  clk_IBUF_BUFG                   | u_logic/Zgzpw6_i_1_n_0                      | u_logic/Tg0qw6_i_1_n_0                 |                2 |             10 |
+|  clk_IBUF_BUFG                   | u_logic/Ydkiu6                              | u_logic/Cfwpw6_i_1_n_0                 |                2 |             10 |
+|  clk_IBUF_BUFG                   | u_logic/Xsmiu6                              | u_logic/V5vax6_i_1_n_0                 |                1 |             10 |
+|  clk_IBUF_BUFG                   | u_logic/X5bax6_i_1_n_0                      |                                        |                1 |             10 |
+|  clk_IBUF_BUFG                   | u_logic/Kloax6_i_1_n_0                      | u_logic/Ehpax6_i_1_n_0                 |                1 |             10 |
+|  clk_IBUF_BUFG                   | u_logic/Tikbx6_i_1_n_0                      |                                        |                1 |             10 |
+|  clk_IBUF_BUFG                   | u_logic/Ztmiu6                              | u_logic/De6bx6_i_1_n_0                 |                4 |             10 |
+|  clk_IBUF_BUFG                   | u_logic/Stmiu6                              | u_logic/O4sax6_i_1_n_0                 |                2 |             10 |
+|  clk_IBUF_BUFG                   | u_logic/Gumiu6                              | u_logic/C7wpw6_i_1_n_0                 |                2 |             10 |
+|  clk_IBUF_BUFG                   | u_logic/Etmiu6                              | u_logic/Cbwpw6_i_1_n_0                 |                1 |             10 |
+|  clk_IBUF_BUFG                   | u_logic/Qsmiu6                              | u_logic/Cdwpw6_i_1_n_0                 |                2 |             10 |
+|  clk_IBUF_BUFG                   | u_logic/Numiu6                              | u_logic/C5wpw6_i_1_n_0                 |                3 |             10 |
+|  clk_IBUF_BUFG                   | u_logic/Ltmiu6                              | u_logic/C9wpw6_i_1_n_0                 |                3 |             10 |
+|  clk_IBUF_BUFG                   | u_logic/A5qax6_i_1_n_0                      | u_logic/U0rax6_i_1_n_0                 |                2 |             10 |
+|  clk_IBUF_BUFG                   | Interconncet/SlaveMUX/E[0]                  | Keyboard/keyboard_filter/SR[0]         |                6 |             16 |
+|  clk_IBUF_BUFG                   | u_logic/Pz9bx6_i_1_n_0                      | Keyboard/keyboard_filter/SR[0]         |                3 |             16 |
+|  clk_IBUF_BUFG                   | u_logic/Z9abx6_i_1_n_0                      | Keyboard/keyboard_filter/SR[0]         |                2 |             16 |
+|  clk_IBUF_BUFG                   | u_logic/Nv9bx6_i_1_n_0                      | Keyboard/keyboard_filter/SR[0]         |                2 |             16 |
+|  clk_IBUF_BUFG                   | u_logic/E[0]                                | Keyboard/keyboard_filter/SR[0]         |                4 |             16 |
+|  clk_IBUF_BUFG                   | u_logic/X7abx6_i_1_n_0                      | Keyboard/keyboard_filter/SR[0]         |                2 |             16 |
+|  clk_IBUF_BUFG                   | u_logic/Mfyax6_i_1_n_0                      | Keyboard/keyboard_filter/SR[0]         |                2 |             16 |
+|  clk_IBUF_BUFG                   | u_logic/L8zax6_i_1_n_0                      | Keyboard/keyboard_filter/SR[0]         |                4 |             16 |
+|  clk_IBUF_BUFG                   | u_logic/R1abx6_i_1_n_0                      | Keyboard/keyboard_filter/SR[0]         |                2 |             16 |
+|  clk_IBUF_BUFG                   | u_logic/Bcabx6_i_1_n_0                      | Keyboard/keyboard_filter/SR[0]         |                3 |             16 |
+|  clk_IBUF_BUFG                   | LCD/DataTrans/WriteCtrl/addr_cnt_en         | LCD_Interface/state_reg[0]_0           |                4 |             28 |
+|  clk_IBUF_BUFG                   |                                             | LCD_Interface/state_reg[0]_0           |                4 |             28 |
+|  clk_IBUF_BUFG                   | Interconncet/SlaveMUX/addr_reg_reg[13][0]   | Keyboard/keyboard_filter/SR[0]         |                5 |             28 |
+|  clk_IBUF_BUFG                   | Interconncet/SlaveMUX/addr_reg_reg[13]_0[0] | Keyboard/keyboard_filter/SR[0]         |                5 |             28 |
+|  clk_IBUF_BUFG                   |                                             | Keyboard_Interface/key_reg_reg[15]     |               14 |             32 |
+|  clk_IBUF_BUFG                   | LCD/DataTrans/WriteCtrl/Ini_cnt_en          | LCD_Interface/state_reg[0]_0           |                5 |             34 |
+|  clk_IBUF_BUFG                   | Keyboard/keyboard_filter/treg1[0]_i_1_n_0   | Keyboard/keyboard_filter/SR[0]         |                5 |             40 |
+|  clk_IBUF_BUFG                   | Keyboard/keyboard_filter/treg6[0]_i_1_n_0   | Keyboard/keyboard_filter/SR[0]         |                5 |             40 |
+|  clk_IBUF_BUFG                   | Keyboard/keyboard_filter/treg7[0]_i_1_n_0   | Keyboard/keyboard_filter/SR[0]         |                5 |             40 |
+|  clk_IBUF_BUFG                   | Keyboard/keyboard_filter/treg0[0]_i_1_n_0   | Keyboard/keyboard_filter/SR[0]         |                5 |             40 |
+|  clk_IBUF_BUFG                   | Keyboard/keyboard_filter/treg13[0]_i_1_n_0  | Keyboard/keyboard_filter/SR[0]         |                5 |             40 |
+|  clk_IBUF_BUFG                   | Keyboard/keyboard_filter/treg9[0]_i_1_n_0   | Keyboard/keyboard_filter/SR[0]         |                5 |             40 |
+|  clk_IBUF_BUFG                   | Keyboard/keyboard_filter/treg11[0]_i_1_n_0  | Keyboard/keyboard_filter/SR[0]         |                5 |             40 |
+|  clk_IBUF_BUFG                   | Keyboard/keyboard_filter/treg10[0]_i_1_n_0  | Keyboard/keyboard_filter/SR[0]         |                5 |             40 |
+|  clk_IBUF_BUFG                   | Keyboard/keyboard_filter/treg8[0]_i_1_n_0   | Keyboard/keyboard_filter/SR[0]         |                5 |             40 |
+|  clk_IBUF_BUFG                   | Keyboard/keyboard_filter/treg14[0]_i_1_n_0  | Keyboard/keyboard_filter/SR[0]         |                5 |             40 |
+|  clk_IBUF_BUFG                   | Keyboard/keyboard_filter/treg12[0]_i_1_n_0  | Keyboard/keyboard_filter/SR[0]         |                5 |             40 |
+|  clk_IBUF_BUFG                   | Keyboard/keyboard_filter/treg5[0]_i_1_n_0   | Keyboard/keyboard_filter/SR[0]         |                5 |             40 |
+|  clk_IBUF_BUFG                   | Keyboard/keyboard_filter/treg4[0]_i_1_n_0   | Keyboard/keyboard_filter/SR[0]         |                5 |             40 |
+|  clk_IBUF_BUFG                   | Keyboard/keyboard_filter/treg3[0]_i_1_n_0   | Keyboard/keyboard_filter/SR[0]         |                5 |             40 |
+|  clk_IBUF_BUFG                   | Keyboard/keyboard_filter/treg2[0]_i_1_n_0   | Keyboard/keyboard_filter/SR[0]         |                5 |             40 |
+|  clk_IBUF_BUFG                   | Keyboard/keyboard_filter/treg15[0]_i_1_n_0  | Keyboard/keyboard_filter/SR[0]         |                5 |             40 |
+|  clk_IBUF_BUFG                   | u_logic/Sm1iu6                              |                                        |                7 |             44 |
+|  SWCLK_IBUF_BUFG                 |                                             | u_logic/Nyhpw6_i_1_n_0                 |               14 |             48 |
+|  clk_IBUF_BUFG                   | u_logic/Wnxax6_i_1_n_0                      |                                        |               12 |             48 |
+|  clk_IBUF_BUFG                   | u_logic/Ydkiu6                              |                                        |               16 |             50 |
+|  clk_IBUF_BUFG                   | u_logic/Zgzpw6_i_1_n_0                      |                                        |               12 |             50 |
+|  clk_IBUF_BUFG                   | u_logic/Ltmiu6                              |                                        |               12 |             54 |
+|  clk_IBUF_BUFG                   | u_logic/Numiu6                              |                                        |               14 |             54 |
+|  clk_IBUF_BUFG                   | u_logic/Qsmiu6                              |                                        |               11 |             54 |
+|  clk_IBUF_BUFG                   | u_logic/Etmiu6                              |                                        |               10 |             54 |
+|  clk_IBUF_BUFG                   | u_logic/Stmiu6                              |                                        |               13 |             54 |
+|  clk_IBUF_BUFG                   | u_logic/Ztmiu6                              |                                        |               10 |             54 |
+|  clk_IBUF_BUFG                   | u_logic/Xsmiu6                              |                                        |               14 |             54 |
+|  clk_IBUF_BUFG                   | u_logic/Gumiu6                              |                                        |               15 |             54 |
+|  clk_IBUF_BUFG                   | u_logic/S5nax6_i_1_n_0                      |                                        |               17 |             54 |
+|  clk_IBUF_BUFG                   | u_logic/Csmiu6                              |                                        |               13 |             54 |
+|  clk_IBUF_BUFG                   | u_logic/Jsmiu6                              |                                        |               14 |             54 |
+|  clk_IBUF_BUFG                   | u_logic/Cmlax6_i_1_n_0                      |                                        |               15 |             54 |
+|  clk_IBUF_BUFG                   | u_logic/Kloax6_i_1_n_0                      |                                        |               10 |             54 |
+|  clk_IBUF_BUFG                   | u_logic/A5qax6_i_1_n_0                      |                                        |               15 |             54 |
+|  clk_IBUF_BUFG                   | u_logic/Ahdax6_i_1_n_0                      |                                        |                7 |             58 |
+|  clk_IBUF_BUFG                   | u_logic/Hlcax6_i_1_n_0                      |                                        |               10 |             58 |
+|  clk_IBUF_BUFG                   | u_logic/Opbax6_i_1_n_0                      |                                        |                7 |             58 |
+|  clk_IBUF_BUFG                   | u_logic/Tceax6_i_1_n_0                      |                                        |                9 |             58 |
+|  clk_IBUF_BUFG                   | LCD_Interface/set_sc[31]_i_2_n_0            | LCD_Interface/set_sc[31]_i_1_n_0       |                8 |             62 |
+|  clk_IBUF_BUFG                   | LCD_Interface/set_sp[31]_i_2_n_0            | LCD_Interface/set_sp[31]_i_1_n_0       |               12 |             62 |
+|  clk_IBUF_BUFG                   | LCD_Interface/set_ec[31]_i_2_n_0            | LCD_Interface/set_ec[31]_i_1_n_0       |                5 |             62 |
+|  clk_IBUF_BUFG                   | LCD_Interface/set_ep[31]_i_2_n_0            | LCD_Interface/set_ep[31]_i_1_n_0       |                9 |             62 |
+|  clk_IBUF_BUFG                   | u_logic/Fvcbx6_i_1_n_0                      |                                        |               16 |             64 |
+|  clk_IBUF_BUFG                   | u_logic/Wahbx6_i_1_n_0                      |                                        |               13 |             64 |
+|  SWCLK_IBUF_BUFG                 |                                             |                                        |               13 |             70 |
+|  SWCLK_IBUF_BUFG                 | u_logic/Em1iu6                              |                                        |                9 |             74 |
+|  clk_IBUF_BUFG                   |                                             | u_logic/Wvgax6_reg_0                   |               27 |             94 |
+|  clk_IBUF_BUFG                   |                                             |                                        |               86 |            296 |
+|  clk_IBUF_BUFG                   |                                             | Keyboard/keyboard_filter/SR[0]         |              147 |            442 |
++----------------------------------+---------------------------------------------+----------------------------------------+------------------+----------------+
+
+

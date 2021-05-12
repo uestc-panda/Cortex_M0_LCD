@@ -7,19 +7,18 @@ module CortexM0_SoC (
 
         input       wire    [3:0]   col,
         output      wire    [3:0]   row,
+        // input       wire   [15:0]  key_pluse,
 
         output      wire            LCD_CS,
         output      wire            LCD_RS,
         output      wire            LCD_WR,
         output      wire            LCD_RD,
         output      wire            LCD_RST,
-        output      wire    [15:0]  LCD_DATA
-        output      wire            LCD_BL_C
-     
+        output      wire    [15:0]  LCD_DATA,
+        output      wire            LCD_BLK
+              
 );
 
-wire music_finish;
-assign led = music_finish;
 //------------------------------------------------------------------------------
 // DEBUG IOBUF 
 //------------------------------------------------------------------------------
@@ -444,6 +443,7 @@ Keyboard Keyboard(
         ,.key_clear(key_clear)
         ,.col(col)
         ,.row(row)
+        // ,.key_pluse(key_pluse)
         ,.key_interrupt(key_interrupt)
         ,.key_data(key_data)
 );

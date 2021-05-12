@@ -4,6 +4,7 @@
     input                 key_clear,
     input        [3 :0]   col,
     output       [3 :0]   row,
+    // input     [15:0]      key_pluse,
     output                key_interrupt,
     output       [15:0]   key_data
 );

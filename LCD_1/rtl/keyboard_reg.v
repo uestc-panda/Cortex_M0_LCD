@@ -12,7 +12,7 @@ assign clear = rstn && (!key_clear) ;
 
 always @(posedge clk or negedge clear) begin
     if (!clear) begin
-        key_reg <= 1'b0;
+        key_reg <= 16'h0000;
     end else begin
         if(key_pluse[15]) key_reg[15] <= 1'b1;
         if(key_pluse[14]) key_reg[14] <= 1'b1;

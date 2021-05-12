@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a75tfgg484-2" LaunchTime="1620724087">
+  <File Type="BITSTR-BMM" Name="CortexM0_SoC_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="CortexM0_SoC_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="CortexM0_SoC_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="CortexM0_SoC_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="CortexM0_SoC.tcl"/>
+  <File Type="OPT-TIMING" Name="CortexM0_SoC_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="CortexM0_SoC_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="CortexM0_SoC_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="CortexM0_SoC_reports.tcl"/>
+  <File Type="OPT-DRC" Name="CortexM0_SoC_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="CortexM0_SoC.hwdef"/>
+  <File Type="PWROPT-DCP" Name="CortexM0_SoC_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="CortexM0_SoC_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="CortexM0_SoC_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="CortexM0_SoC_placed.dcp"/>
+  <File Type="PLACE-IO" Name="CortexM0_SoC_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="CortexM0_SoC_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="CortexM0_SoC_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="CortexM0_SoC_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="CortexM0_SoC_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="CortexM0_SoC_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="CortexM0_SoC_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="CortexM0_SoC.bgn"/>
+  <File Type="PLACE-TIMING" Name="CortexM0_SoC_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="CortexM0_SoC_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="CortexM0_SoC.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="CortexM0_SoC_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="CortexM0_SoC_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="CortexM0_SoC_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="CortexM0_SoC.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="CortexM0_SoC_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="CortexM0_SoC_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="CortexM0_SoC_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="CortexM0_SoC_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="CortexM0_SoC_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="CortexM0_SoC_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="CortexM0_SoC.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="CortexM0_SoC_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="CortexM0_SoC.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="CortexM0_SoC_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="CortexM0_SoC_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="CortexM0_SoC.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="CortexM0_SoC_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="CortexM0_SoC_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="CortexM0_SoC_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="CortexM0_SoC_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="CortexM0_SoC_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="CortexM0_SoC_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="CortexM0_SoC_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="CortexM0_SoC_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="CortexM0_SoC_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="CortexM0_SoC_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="CortexM0_SoC_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="CortexM0_SoC_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="CortexM0_SoC_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="CortexM0_SoC_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="CortexM0_SoC_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="CortexM0_SoC_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="CortexM0_SoC_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="CortexM0_SoC_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="CortexM0_SoC_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="CortexM0_SoC.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="CortexM0_SoC_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="CortexM0_SoC.rbt"/>
+  <File Type="BITSTR-NKY" Name="CortexM0_SoC.nky"/>
+  <File Type="BG-DRC" Name="CortexM0_SoC.drc"/>
+  <File Type="RDI-RDI" Name="CortexM0_SoC.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../rtl/AHBlite_Block_RAM.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/AHBlite_Decoder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/AHBlite_Interconnect.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/AHBlite_Keyboard.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/AHBlite_LCD.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/AHBlite_SlaveMUX.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/AddrCounter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/AddrIni.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/BlockROM1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/BlockROM16.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/Block_RAM.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/DataTrans.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/Keyboard.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/LCD.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/LCDCtrl.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/WriteCtrl.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/cortexm0ds_logic.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/keyboard_filter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/keyboard_reg.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/keyboard_scan.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/CortexM0_SoC.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/CounterKeyboard.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/DecoderCnt.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/clk_division.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="CortexM0_SoC"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../pin.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

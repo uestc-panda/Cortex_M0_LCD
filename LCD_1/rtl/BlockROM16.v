@@ -10,7 +10,7 @@ module BlockROM16 # (
 (* ramstyle = "AUTO" *) reg [DATA_WIDTH-1 : 0] mem[(2**ADDR_WIDTH-1) : 0];
 
 initial begin
-    $readmemh("C:/Users/73474/Desktop/LCD/LCD_4/rtl/data.txt", mem);
+    $readmemh("C:/Users/73474/Desktop/Cortex_M0_LCD/LCD_1/rtl/data.txt", mem);
 end
 
 always @ (posedge clk) begin

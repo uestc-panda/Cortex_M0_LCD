@@ -1,0 +1,590 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 17 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/73474/Desktop/LCD/LCD_4/modelsim
+T_opt
+!s110 1620720637
+Vf3;h5M5=RWNi>a@Nb^57_1
+04 13 4 work Cortex_M0_tst fast 0
+=1-2cf05d9f8cc2-609a3bfc-282-18d4
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2019.2;69
+vAddrCounter
+Z1 !s110 1620715319
+!i10b 1
+!s100 :<bJGT@B?;kI4WmCO;f`b0
+!s11b ]O4>T2_Smd@6=0>P=2IBl1
+IUze;cG`lM>LCN1;cNd6`<0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/73474/Desktop/M0/LCD/modelsim
+w1620378686
+8C:/Users/73474/Desktop/M0/LCD/rtl/AddrCounter.v
+FC:/Users/73474/Desktop/M0/LCD/rtl/AddrCounter.v
+L0 1
+Z4 OL;L;2019.2;69
+r1
+!s85 0
+31
+Z5 !s108 1620715319.000000
+!s107 C:/Users/73474/Desktop/M0/LCD/rtl/AddrCounter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/rtl/AddrCounter.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+n@addr@counter
+vAddrIni
+R1
+!i10b 1
+!s100 0YCA]iIDc`T:jh3CD2D2J0
+!s11b VGKFficTJ[SYjP;=0bOQk3
+I2L]eKRSeHz552fA==K<Xj2
+R2
+R3
+w1620362319
+8C:/Users/73474/Desktop/M0/LCD/rtl/AddrIni.v
+FC:/Users/73474/Desktop/M0/LCD/rtl/AddrIni.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/73474/Desktop/M0/LCD/rtl/AddrIni.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/rtl/AddrIni.v|
+!i113 0
+R6
+R0
+n@addr@ini
+vAHBlite_Block_RAM
+R1
+!i10b 1
+!s100 :=LN1JY<Kl204o6e:U=@N3
+!s11b KJf32eXo6@gAkFm0N5F;m0
+IZPV67iYigl5FaHK;[H0eL1
+R2
+R3
+w1556456504
+8C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_Block_RAM.v
+FC:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_Block_RAM.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_Block_RAM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_Block_RAM.v|
+!i113 0
+R6
+R0
+n@a@h@blite_@block_@r@a@m
+vAHBlite_Decoder
+R1
+!i10b 1
+!s100 9m3_CHL_Ph@[;<cI8k2zi1
+!s11b 0V?[a`XENWda971Ea?nX`1
+IjlZG3gnA]FoM9a]2?3D:m2
+R2
+R3
+w1620542170
+8C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_Decoder.v
+FC:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_Decoder.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_Decoder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_Decoder.v|
+!i113 0
+R6
+R0
+n@a@h@blite_@decoder
+vAHBlite_Interconnect
+R1
+!i10b 1
+!s100 Qez>Cj=]A`OkT[]]O3EFE0
+!s11b S5UDcjh_Xn]1`45^jhHAo0
+I[7a@]AF2eM95W:Z^9ILan2
+R2
+R3
+w1556180989
+8C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_Interconnect.v
+FC:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_Interconnect.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_Interconnect.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_Interconnect.v|
+!i113 0
+R6
+R0
+n@a@h@blite_@interconnect
+vAHBlite_Keyboard
+R1
+!i10b 1
+!s100 5oSfCBCZBPPSN08RK9nMf2
+!s11b =W;TLNUHch<YAAb:QFl4W0
+IjhSV;Z>nZ^3Rnoan_PRP50
+R2
+R3
+w1617197621
+8C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_Keyboard.v
+FC:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_Keyboard.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_Keyboard.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_Keyboard.v|
+!i113 0
+R6
+R0
+n@a@h@blite_@keyboard
+vAHBlite_LCD
+!s110 1620718857
+!i10b 1
+!s100 HCz2iI<GKGkd77?Jn2UZ31
+!s11b A`dddP?l>BW7ZS0YNngDL3
+IIme[?7`COT=8;k?_2`[C50
+R2
+R3
+w1620718847
+8C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_LCD.v
+FC:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_LCD.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1620718857.000000
+!s107 C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_LCD.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_LCD.v|
+!i113 0
+R6
+R0
+n@a@h@blite_@l@c@d
+vAHBlite_SlaveMUX
+R1
+!i10b 1
+!s100 l^CSz=X7aGAgLGLfHgU5U0
+!s11b Q:oCzm9?1Xl;bCQ^zUVVW1
+IQU^_O@?dkF[e05J`hWzCo1
+R2
+R3
+w1556175596
+8C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_SlaveMUX.v
+FC:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_SlaveMUX.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_SlaveMUX.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/rtl/AHBlite_SlaveMUX.v|
+!i113 0
+R6
+R0
+n@a@h@blite_@slave@m@u@x
+vBlock_RAM
+R1
+!i10b 1
+!s100 Tg8[hWHfcYBBlbNR:8lQ_1
+!s11b el7[V64:n_IaSe6ZSGJfQ3
+IiXbWd7loQR5KeOF9<D?2D1
+R2
+R3
+w1620637493
+8C:/Users/73474/Desktop/M0/LCD/rtl/Block_RAM.v
+FC:/Users/73474/Desktop/M0/LCD/rtl/Block_RAM.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/73474/Desktop/M0/LCD/rtl/Block_RAM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/rtl/Block_RAM.v|
+!i113 0
+R6
+R0
+n@block_@r@a@m
+vBlockROM1
+Z7 !s110 1620715320
+!i10b 1
+!s100 3T0IffVOmXiX=[UM`8Q5B0
+!s11b Z6?Tk5n;=elZDFgPnh=b>0
+IgImZKNoM4gXAiaN1c<@TY2
+R2
+R3
+w1620378051
+8C:/Users/73474/Desktop/M0/LCD/rtl/BlockROM1.v
+FC:/Users/73474/Desktop/M0/LCD/rtl/BlockROM1.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z8 !s108 1620715320.000000
+!s107 C:/Users/73474/Desktop/M0/LCD/rtl/BlockROM1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/rtl/BlockROM1.v|
+!i113 0
+R6
+R0
+n@block@r@o@m1
+vBlockROM16
+R7
+!i10b 1
+!s100 VZe`GNRWhh^_eBA:KSALj1
+!s11b P9ENB?PPf8g?M==2^^Ld`1
+I1]azY[VfVNY0b=NY>QAVS1
+R2
+R3
+w1620378056
+8C:/Users/73474/Desktop/M0/LCD/rtl/BlockROM16.v
+FC:/Users/73474/Desktop/M0/LCD/rtl/BlockROM16.v
+L0 1
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/73474/Desktop/M0/LCD/rtl/BlockROM16.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/rtl/BlockROM16.v|
+!i113 0
+R6
+R0
+n@block@r@o@m16
+vclk_division
+R7
+!i10b 1
+!s100 Ef^UBgQdSUoMVThSIm4Q40
+!s11b C@BI4A0=gEK:zKWL]i0i31
+I1aP@ZIDQgCl^b@oblNzVG2
+R2
+R3
+w1616590751
+8C:/Users/73474/Desktop/M0/LCD/rtl/clk_division.v
+FC:/Users/73474/Desktop/M0/LCD/rtl/clk_division.v
+L0 1
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/73474/Desktop/M0/LCD/rtl/clk_division.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/rtl/clk_division.v|
+!i113 0
+R6
+R0
+vCortex_M0_tst
+!s110 1620720626
+!i10b 1
+!s100 jAXIA:f<JlEdi;ZbhUo1a1
+!s11b YaQd2WC^fnfGCKGj6XAcZ2
+I;j5g>jnVjJ<WcE6aTb;Y61
+R2
+R3
+w1620720620
+8C:/Users/73474/Desktop/M0/LCD/modelsim/M0_LCD_tst.v
+FC:/Users/73474/Desktop/M0/LCD/modelsim/M0_LCD_tst.v
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1620720626.000000
+!s107 C:/Users/73474/Desktop/M0/LCD/modelsim/M0_LCD_tst.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/modelsim/M0_LCD_tst.v|
+!i113 0
+R6
+R0
+n@cortex_@m0_tst
+vCortexM0_SoC
+!s110 1620716205
+!i10b 1
+!s100 :BjgQ2DSEk1mF7LK2^jEW3
+!s11b ^;;4LEGZOYR@D[Hj0<4j:1
+I;m9?U=Una2K_zi^D:=6KS0
+R2
+R3
+w1620716191
+8C:/Users/73474/Desktop/M0/LCD/rtl/CortexM0_SoC.v
+FC:/Users/73474/Desktop/M0/LCD/rtl/CortexM0_SoC.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1620716205.000000
+!s107 C:/Users/73474/Desktop/M0/LCD/rtl/CortexM0_SoC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/rtl/CortexM0_SoC.v|
+!i113 0
+R6
+R0
+n@cortex@m0_@so@c
+vcortexm0ds_logic
+R7
+!i10b 1
+!s100 G<3Q_bN@PV<MKFdgj4zVA1
+!s11b U1CP4P8L[gUYDIO^iBUE20
+Izi_@CCd0efX4DYaR^1h^j1
+R2
+R3
+w1506940729
+8C:/Users/73474/Desktop/M0/LCD/rtl/cortexm0ds_logic.v
+FC:/Users/73474/Desktop/M0/LCD/rtl/cortexm0ds_logic.v
+L0 27
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/73474/Desktop/M0/LCD/rtl/cortexm0ds_logic.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/rtl/cortexm0ds_logic.v|
+!i113 0
+R6
+R0
+vCounterKeyboard
+R7
+!i10b 1
+!s100 [@Oob:IX2zk<dbYjZkb3g0
+!s11b CdZS4b47`DTE:WYa]?EV31
+IU5P47WSH3XA@Y_`@:LbR;1
+R2
+R3
+w1620269878
+8C:/Users/73474/Desktop/M0/LCD/rtl/CounterKeyboard.v
+FC:/Users/73474/Desktop/M0/LCD/rtl/CounterKeyboard.v
+L0 1
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/73474/Desktop/M0/LCD/rtl/CounterKeyboard.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/rtl/CounterKeyboard.v|
+!i113 0
+R6
+R0
+n@counter@keyboard
+vDataTrans
+Z9 !s110 1620715321
+!i10b 1
+!s100 fikcgS=<<b5=@CYXeSUN^1
+!s11b NNIQ5[hF>4=P>d:KNZc8O1
+ImO7Q?1ZdWXEP5Bh8Xh^bC0
+R2
+R3
+w1620541063
+8C:/Users/73474/Desktop/M0/LCD/rtl/DataTrans.v
+FC:/Users/73474/Desktop/M0/LCD/rtl/DataTrans.v
+L0 1
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/73474/Desktop/M0/LCD/rtl/DataTrans.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/rtl/DataTrans.v|
+!i113 0
+R6
+R0
+n@data@trans
+vDecoderCnt
+R9
+!i10b 1
+!s100 Sj^NW:_kNG0n_Bfek1?MN1
+!s11b ;gnJH>XVE7Ajd2[BfHAZ[0
+IjEJiaY7L>d<JGmi^Pbcc42
+R2
+R3
+w1620358462
+8C:/Users/73474/Desktop/M0/LCD/rtl/DecoderCnt.v
+FC:/Users/73474/Desktop/M0/LCD/rtl/DecoderCnt.v
+L0 2
+R4
+r1
+!s85 0
+31
+Z10 !s108 1620715321.000000
+!s107 C:/Users/73474/Desktop/M0/LCD/rtl/DecoderCnt.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/rtl/DecoderCnt.v|
+!i113 0
+R6
+R0
+n@decoder@cnt
+vKeyboard
+R9
+!i10b 1
+!s100 >VaA08?m7_6d;ZELmQYD>2
+!s11b cfD5jGoV>6Zh>4j1TcjBP1
+IR;lR^bZDHi_gUXd^E:INY2
+R2
+R3
+w1620638142
+8C:/Users/73474/Desktop/M0/LCD/rtl/Keyboard.v
+FC:/Users/73474/Desktop/M0/LCD/rtl/Keyboard.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/73474/Desktop/M0/LCD/rtl/Keyboard.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/rtl/Keyboard.v|
+!i113 0
+R6
+R0
+n@keyboard
+vkeyboard_filter
+R9
+!i10b 1
+!s100 BnmTHchUR7DVFBNFb4MVE0
+!s11b o8fmmJZ:njT:^mB;[dBJQ0
+I[UMW>Uk>eP[li[Jd<jW8n2
+R2
+R3
+w1620289110
+8C:/Users/73474/Desktop/M0/LCD/rtl/keyboard_filter.v
+FC:/Users/73474/Desktop/M0/LCD/rtl/keyboard_filter.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/73474/Desktop/M0/LCD/rtl/keyboard_filter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/rtl/keyboard_filter.v|
+!i113 0
+R6
+R0
+vkeyboard_reg
+R9
+!i10b 1
+!s100 _YIUYnTIYn6:eKLXS[8b_0
+!s11b GWIb1M;?_TL`B74X7M]O;0
+I16n5]<NXb1_GTdGi5c;]b3
+R2
+R3
+w1620545524
+8C:/Users/73474/Desktop/M0/LCD/rtl/keyboard_reg.v
+FC:/Users/73474/Desktop/M0/LCD/rtl/keyboard_reg.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/73474/Desktop/M0/LCD/rtl/keyboard_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/rtl/keyboard_reg.v|
+!i113 0
+R6
+R0
+vkeyboard_scan
+R9
+!i10b 1
+!s100 b^jjhVA@bCVkAQ@aj]31L3
+!s11b T5h@^L3lXDS9MmRMcm^Gm0
+I>?5[OGOTaMzB1C5GQ4HL50
+R2
+R3
+w1611910883
+8C:/Users/73474/Desktop/M0/LCD/rtl/keyboard_scan.v
+FC:/Users/73474/Desktop/M0/LCD/rtl/keyboard_scan.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/73474/Desktop/M0/LCD/rtl/keyboard_scan.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/rtl/keyboard_scan.v|
+!i113 0
+R6
+R0
+vLCD
+!s110 1620716130
+!i10b 1
+!s100 QfCn@?`FK[=?`d3WXmFSD3
+!s11b cB1=PNY[<Z`K952;Xo_iY1
+IDabXMW9L15cY]h<UdYb;n1
+R2
+R3
+w1620716039
+8C:/Users/73474/Desktop/M0/LCD/rtl/LCD.v
+FC:/Users/73474/Desktop/M0/LCD/rtl/LCD.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1620716130.000000
+!s107 C:/Users/73474/Desktop/M0/LCD/rtl/LCD.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/rtl/LCD.v|
+!i113 0
+R6
+R0
+n@l@c@d
+vLCDCtrl
+R9
+!i10b 1
+!s100 K^CX?;fBa:74b4FBDMz@53
+!s11b E^J^SZB8AVnb7B2?mGKiA2
+IXOJP:DehFk84Al]<6zC0@3
+R2
+R3
+w1620379536
+8C:/Users/73474/Desktop/M0/LCD/rtl/LCDCtrl.v
+FC:/Users/73474/Desktop/M0/LCD/rtl/LCDCtrl.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/73474/Desktop/M0/LCD/rtl/LCDCtrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/rtl/LCDCtrl.v|
+!i113 0
+R6
+R0
+n@l@c@d@ctrl
+vWriteCtrl
+R9
+!i10b 1
+!s100 G74cgaWbl8IDPF9VoU@;A1
+!s11b 0E?NHU7:^dn;PLG0S5<SL3
+IOmDVjnQ5DVVA5J4jFHZG82
+R2
+R3
+w1620541116
+8C:/Users/73474/Desktop/M0/LCD/rtl/WriteCtrl.v
+FC:/Users/73474/Desktop/M0/LCD/rtl/WriteCtrl.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/73474/Desktop/M0/LCD/rtl/WriteCtrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/73474/Desktop/M0/LCD/rtl/WriteCtrl.v|
+!i113 0
+R6
+R0
+n@write@ctrl

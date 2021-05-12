@@ -49,16 +49,16 @@ end
 assign ini_en = (wr_en_reg == 1'b1 & addr_reg == 8'h18) ? HWDATA[0] : 1'b0;
 assign color_en = (wr_en_reg == 1'b1 & addr_reg == 8'h1c) ? HWDATA[0] : 1'b0;
 
-always @(posedge clk or negedge HRESETn) begin
+always @(posedge HCLK or negedge HRESETn) begin
     if(~HRESETn) LCD_rstn <= 0;
-    else if(write_en_reg ) begin
+    else if(wr_en_reg ) begin
         if(addr_reg[4])begin
             case (addr_reg[3:0])
                 4'h0: LCD_rstn <= HWDATA[0];
                 4'h4: LCD_en <= HWDATA[0]; 
                 default:begin
-                    LCD_rstn <= 1'b1;
-                    LCD_en <= 1'b0;
+                    LCD_rstn <= LCD_rstn;
+                    LCD_en <= LCD_en;
                 end 
             endcase
         end
