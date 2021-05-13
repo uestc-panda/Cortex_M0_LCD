@@ -73,8 +73,9 @@ __Vectors       DCD     __initial_sp              ; Top of Stack
                 DCD     0                         ; Reserved
                 DCD     0                         ; Reserved
                 DCD     0            			  ; PendSV Handler
-                DCD     0          				  ; SysTick Handler
-                DCD     Keyboard_Handler          ; IRQ0 Handler
+                DCD     SysTick_Handler           ; SysTick Handler
+                DCD     Keyboard_Handler              ; IRQ0 Handler
+
 
                 AREA    |.text|, CODE, READONLY
 
@@ -90,7 +91,15 @@ Reset_Handler   PROC
                 MOV     R9, R8
                 BX      R0
                 ENDP
- 
+
+SysTick_Handler PROC
+                EXPORT SysTick_Handler            [WEAK]
+                IMPORT SysTickHandler
+                PUSH    {LR}
+                BL      SysTickHandler
+                POP     {PC}		
+                ENDP
+
 Keyboard_Handler    PROC
                 EXPORT Keyboard_Handler            [WEAK]
 				IMPORT KEY_ISR

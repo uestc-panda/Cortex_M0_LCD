@@ -13,15 +13,16 @@ module AHBlite_LCD(
     output wire    [31:0]               HRDATA,  
     output wire                         HRESP,
 
-    output  wire                        LCD_MODE,
-    output  wire                        LCD_INI_en
     output  wire                        LCD_CS,
     output  wire                        LCD_RS,
     output  wire                        LCD_WR,
     output  wire                        LCD_RD,
     output  wire                        LCD_RST,
     output  wire    [15:0]              LCD_DATA,
-    output  wire                        LCD_BL_CTR
+    output  wire                        LCD_BL_CTR,
+
+    output  wire                        LCD_MODE,
+    output  wire                        LCD_INI_en
 );
 
 assign HRESP = 1'b0;
@@ -76,8 +77,9 @@ assign LCD_DATA_en[12]  = addr == 6'h12 & write_en_reg;
 assign LCD_DATA_en[13]  = addr == 6'h13 & write_en_reg;
 assign LCD_DATA_en[14]  = addr == 6'h14 & write_en_reg;
 assign LCD_DATA_en[15]  = addr == 6'h15 & write_en_reg;
-assign LCD_INI_en       = addr == 6'h16 & write_en_reg;
-assign LCD_MODE_en      = addr == 6'h17 & write_en_reg;
+
+assign LCD_MODE_en      = addr == 6'h16 & write_en_reg;
+assign LCD_INI_en       = addr == 6'h17 & write_en_reg;
 
 reg        LCD_CS_reg;
 reg        LCD_RS_reg;
