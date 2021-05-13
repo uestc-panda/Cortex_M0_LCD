@@ -1,4 +1,4 @@
-module LCD(
+module LCD_INI(
     input              clk,
     input              rstn,
     input              en,
@@ -8,20 +8,18 @@ module LCD(
     output             LCD_WR,
     output             LCD_RD,
     output    [15:0]   LCD_DATA,
-    output             LCD_BLK
+    output             LCD_BL_CTR
 );
-
-wire addr_or_data_o;
-
-assign LCD_RST = rstn;
-assign lcd_RS = addr_or_data_o;// rs = 0 -> Command Addr
-assign LCD_RD = 1'b1;
-assign LCD_BLK = 1'b1;
 
 localparam  ADDR_WIDTH = 17;
 
-wire addr_en;
+assign LCD_RST    = rstn;
+assign LCD_RD     = 1'b1;
+assign LCD_BL_CTR = 1'b1;
+
+
 wire Initial_finish; 
+wire addr_en;
 WriteCtrl WriteCtrl(
      .clk               (clk)
     ,.rstn              (rstn)
@@ -35,14 +33,15 @@ WriteCtrl WriteCtrl(
 /*****************************************/
 //addr
 /*****************************************/
+wire [ADDR_WIDTH-1:0] addr;
 AddrIni # (
      .ADDR_WIDTH  (ADDR_WIDTH)
 )     AddrIni (
      .clk             (clk)
     ,.rstn            (rstn)
-    ,.cnt_en_i        (addr_en)
+    ,.cnt_en          (addr_en)
     ,.Initial_finish  (Initial_finish)
-    ,.addr_o          (addr)
+    ,.addr            (addr)
 );
 
 
@@ -54,8 +53,8 @@ BlockROM16 # (
     ,.DATA_WIDTH  (16)
 )     BlockROM_Data (
      .clk         (clk)
-    ,.addr_i      (addr)
-    ,.data_o      (LCD_DATA)
+    ,.addr        (addr)
+    ,.data        (LCD_DATA)
 );
 
 BlockROM1 # (
@@ -63,8 +62,8 @@ BlockROM1 # (
     ,.DATA_WIDTH  (1)
 )     BlockROM_Flag (
      .clk         (clk)
-    ,.addr_i      (addr)
-    ,.data_o      (addr_or_data_o)
+    ,.addr        (addr)
+    ,.data        (LCD_RS)// rs = 0 -> Command Addr
 );
 
 endmodule

@@ -20,13 +20,13 @@ always @ (*) begin
     if (cur_state[0])
         nxt_state = en ? WAIT : IDLE;
     else if (cur_state[1]) 
-        nxt_state = en ? WR_L : IDLE;
+        nxt_state = WR_L;
     else if (cur_state[2])
-        nxt_state = en ? WR_H : IDLE;
+        nxt_state = WR_H;
     else if (cur_state[3])
-        nxt_state = en ? ADDR : IDLE;
+        nxt_state = ADDR;
     else if (cur_state[4])
-        nxt_state = en ? ( data_stop ? IDLE : WAIT )  : IDLE;   
+        nxt_state = data_stop ? IDLE : WAIT ;   
     else nxt_state = IDLE;
 end
 

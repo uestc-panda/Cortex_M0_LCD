@@ -15,7 +15,7 @@ module CortexM0_SoC (
         output      wire            LCD_RD,
         output      wire            LCD_RST,
         output      wire    [15:0]  LCD_DATA,
-        output      wire            LCD_BLK
+        output      wire            LCD_BL_CTR
               
 );
 
@@ -379,14 +379,16 @@ AHBlite_Keyboard Keyboard_Interface(
 // AHB LCD
 //------------------------------------------------------------------------------
 
-wire LCD_rstn;
-wire LCD_en;
-wire ini_en;
-wire color_en;
-wire [31:0] set_sc;
-wire [31:0] set_ec;
-wire [31:0] set_sp;
-wire [31:0] set_ep;
+wire            LCD_CS_run;
+wire            LCD_RS_run;
+wire            LCD_WR_run;
+wire            LCD_RD_run;
+wire            LCD_RST_run;
+wire   [15:0]   LCD_DATA_run;
+wire            LCD_BL_CTR_run;
+
+wire     LCD_INI_en;
+wire     LCD_MODE;
 
 AHBlite_LCD LCD_Interface(
         /* Connect to Interconnect Port 3 */
@@ -403,14 +405,17 @@ AHBlite_LCD LCD_Interface(
         .HREADYOUT      (HREADYOUT_P3),
         .HRDATA         (HRDATA_P3),
         .HRESP          (HRESP_P3),
-        .LCD_rstn       (LCD_rstn),
-        .LCD_en         (LCD_en),
-        .ini_en         (ini_en),
-        .color_en       (color_en),
-        .set_sc         (set_sc),
-        .set_ec         (set_ec),
-        .set_sp         (set_sp),
-        .set_ep         (set_ep)
+
+        .LCD_CS         (LCD_CS_run),
+        .LCD_RS         (LCD_RS_run),
+        .LCD_WR         (LCD_WR_run),
+        .LCD_RD         (LCD_RD_run),
+        .LCD_RST        (LCD_RST_run),
+        .LCD_DATA       (LCD_DATA_run),
+        .LCD_BL_CTR     (LCD_BL_CTR_run),
+
+        .LCD_INI_en     (LCD_INI_en),
+        .LCD_MODE       (LCD_MODE)
         /**********************************/ 
 );
 
@@ -452,24 +457,33 @@ Keyboard Keyboard(
 // LCD
 //------------------------------------------------------------------------------
 
-LCD LCD(
+wire            LCD_CS_INI;
+wire            LCD_RS_INI;
+wire            LCD_WR_INI;
+wire            LCD_RD_INI;
+wire            LCD_RST_INI;
+wire   [15:0]   LCD_DATA_INI;
+wire            LCD_BL_CTR_INI;
+
+LCD_INI LCD_INI(
          .clk             (clk)
-        ,.rstn            (LCD_rstn)
-        ,.lcd_rstn        (cpuresetn)
-        ,.en              (LCD_en)
-        ,.ini_en          (ini_en)
-        ,.color_en        (color_en)
-        ,.set_sc          (set_sc)
-        ,.set_ec          (set_ec)
-        ,.set_sp          (set_sp)
-        ,.set_ep          (set_ep)
-        ,.LCD_CS          (LCD_CS)
-        ,.LCD_RST         (LCD_RST)
-        ,.LCD_RS          (LCD_RS)
-        ,.LCD_WR          (LCD_WR)
-        ,.LCD_RD          (LCD_RD)
-        ,.LCD_DATA        (LCD_DATA)
-        ,.LCD_BLK         (LCD_BLK)
+        ,.rstn            (cpuresetn)
+        ,.en              (LCD_INI_en)
+        ,.LCD_CS          (LCD_CS_INI)
+        ,.LCD_RST         (LCD_RST_INI)
+        ,.LCD_RS          (LCD_RS_INI)
+        ,.LCD_WR          (LCD_WR_INI)
+        ,.LCD_RD          (LCD_RD_INI)
+        ,.LCD_DATA        (LCD_DATA_INI)
+        ,.LCD_BLK         (LCD_BL_CTR_INI)
 );
+
+assign LCD_CS      = ( LCD_MODE == 1'b1 ) ? LCD_CS_run     : LCD_CS_INI     ;
+assign LCD_RST     = ( LCD_MODE == 1'b1 ) ? LCD_RST_run    : LCD_RST_INI    ;
+assign LCD_RS      = ( LCD_MODE == 1'b1 ) ? LCD_RS_run     : LCD_RS_INI     ;
+assign LCD_WR      = ( LCD_MODE == 1'b1 ) ? LCD_WR_run     : LCD_WR_INI     ;
+assign LCD_RD      = ( LCD_MODE == 1'b1 ) ? LCD_RD_run     : LCD_RD_INI     ;
+assign LCD_DATA    = ( LCD_MODE == 1'b1 ) ? LCD_DATA_run   : LCD_DATA_INI   ;
+assign LCD_BL_CTR  = ( LCD_MODE == 1'b1 ) ? LCD_BL_CTR_run : LCD_BL_CTR_INI ;
 
 endmodule

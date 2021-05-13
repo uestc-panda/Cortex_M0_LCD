@@ -52,16 +52,9 @@ assign P1_HSEL = (HADDR[31:16] == 16'h2000) ? Port1_en : 1'b0;
 assign P2_HSEL = (HADDR[31:4] == 28'h4000000) ? Port2_en : 1'b0; 
 /***********************************/
 
-//0X40000010 LCD rstn 
-//0X40000014 LCD en
-//0X40000018 LCD ini_en
-//0X4000001c LCD color_en
-//0X40000020 LCD set_sc
-//0X40000024 LCD set_ec
-//0X40000028 LCD set_sp
-//0X4000002c LCD set_ep
+//0X40050000 LCD 
 /*Insert LCD decoder code there*/
-assign P3_HSEL = (HADDR[31:4] == 28'h4000001 || HADDR[31:4] == 28'h4000002) ? Port3_en : 1'b0;
+assign P4_HSEL = (HADDR[31:16] == 16'h4005)   ? Port4_en : 1'b0;
 /***********************************/
 
 
